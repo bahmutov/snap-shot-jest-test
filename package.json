@@ -5,7 +5,7 @@
   "description": "Jest compatibility with [snap-shot][snap-shot] test project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/bahmutov/snap-shot-jest-test#readme",
   "dependencies": {
+    "jest": "^18.1.0",
     "snap-shot": "^1.11.0"
   }
 }
