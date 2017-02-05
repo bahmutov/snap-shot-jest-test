@@ -1,0 +1,28 @@
+{
+  "name": "snap-shot-jest-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jest compatibility with [snap-shot][snap-shot] test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/snap-shot-jest-test.git"
+  },
+  "keywords": [
+    "jest",
+    "snap-shot",
+    "test"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/snap-shot-jest-test/issues"
+  },
+  "homepage": "https://github.com/bahmutov/snap-shot-jest-test#readme",
+  "dependencies": {
+    "snap-shot": "^1.11.0"
+  }
+}
