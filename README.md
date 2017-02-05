@@ -2,4 +2,8 @@
 
 > Jest compatibility with [snap-shot][snap-shot] test project
 
-[snap-shot]: https://github.com/bahmutov/snap-shot
+[![Build status][ci-image] ][ci-url]
+
+[snap-shot]: https://github.com/bahmutov/snap-shot-jest-test
+[ci-image]: https://travis-ci.org/bahmutov/snap-shot-jest-test.svg?branch=master
+[ci-url]: https://travis-ci.org/bahmutov/snap-shot
