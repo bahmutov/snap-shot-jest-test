@@ -24,6 +24,6 @@
   "homepage": "https://github.com/bahmutov/snap-shot-jest-test#readme",
   "dependencies": {
     "jest": "^18.1.0",
-    "snap-shot": "1.13.0"
+    "snap-shot": "2.0.0"
   }
 }
