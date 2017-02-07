@@ -1,4 +1,4 @@
-module.exports[`2 + 5 should match snap-shot 1`] = 7
+exports['2 + 5 should match snap-shot 1'] = 7
 
-module.exports[`concat strings using snap-shot 1`] = "foo"
+exports['concat strings using snap-shot 1'] = "foo"
 
