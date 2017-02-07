@@ -2,6 +2,9 @@
   "sum.test.js": {
     "2 + 5 should match snap-shot": [
       7
+    ],
+    "concat strings using snap-shot": [
+      "foo"
     ]
   }
 }
