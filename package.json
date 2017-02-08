@@ -5,7 +5,7 @@
   "description": "Jest compatibility with [snap-shot][snap-shot] test project",
   "main": "index.js",
   "scripts": {
-    "test": "DEBUG=save jest",
+    "test": "DEBUG=snap-shot jest",
     "debug": "DEBUG=snap-shot jest Link.test.js",
     "debug2": "DEBUG=snap-shot jest Link2.test.js",
     "issues": "git-issues"
