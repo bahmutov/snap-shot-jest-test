@@ -7,6 +7,7 @@
   "scripts": {
     "test": "DEBUG=save jest",
     "debug": "DEBUG=snap-shot jest Link.test.js",
+    "debug2": "DEBUG=snap-shot jest Link2.test.js",
     "issues": "git-issues"
   },
   "repository": {
