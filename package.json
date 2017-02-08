@@ -5,7 +5,8 @@
   "description": "Jest compatibility with [snap-shot][snap-shot] test project",
   "main": "index.js",
   "scripts": {
-    "test": "DEBUG=save jest"
+    "test": "DEBUG=save jest",
+    "issues": "git-issues"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,14 @@
   "dependencies": {
     "jest": "^18.1.0",
     "snap-shot": "2.1.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^18.0.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "git-issues": "^1.3.1",
+    "jest": "^18.1.0",
+    "react": "^15.4.2",
+    "react-test-renderer": "^15.4.2"
   }
 }
