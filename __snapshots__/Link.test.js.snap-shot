@@ -1,0 +1,33 @@
+exports['Link changes the class when hovered 1'] = {
+  "type": "a",
+  "props": {
+    "className": "normal",
+    "href": "http://www.facebook.com"
+  },
+  "children": [
+    "Facebook"
+  ]
+}
+
+exports['Link changes the class when hovered 2'] = {
+  "type": "a",
+  "props": {
+    "className": "hovered",
+    "href": "http://www.facebook.com"
+  },
+  "children": [
+    "Facebook"
+  ]
+}
+
+exports['Link changes the class when hovered 3'] = {
+  "type": "a",
+  "props": {
+    "className": "normal",
+    "href": "http://www.facebook.com"
+  },
+  "children": [
+    "Facebook"
+  ]
+}
+

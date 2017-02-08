@@ -2,3 +2,7 @@ exports['2 + 5 should match snap-shot 1'] = 7
 
 exports['concat strings using snap-shot 1'] = "foo"
 
+exports['Link changes the class when hovered 1'] = 7
+
+exports['Link changes the class when hovered 2'] = "foo"
+
