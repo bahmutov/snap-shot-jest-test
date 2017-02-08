@@ -27,7 +27,7 @@
   "homepage": "https://github.com/bahmutov/snap-shot-jest-test#readme",
   "dependencies": {
     "jest": "^18.1.0",
-    "snap-shot": "2.1.0"
+    "snap-shot": "2.7.0"
   },
   "devDependencies": {
     "babel-jest": "^18.0.0",
