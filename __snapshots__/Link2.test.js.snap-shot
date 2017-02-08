@@ -1,0 +1,11 @@
+exports['Link changes the class when hovered 2'] = {
+  "type": "a",
+  "props": {
+    "className": "normal",
+    "href": "http://www.facebook.com"
+  },
+  "children": [
+    "Facebook"
+  ]
+}
+

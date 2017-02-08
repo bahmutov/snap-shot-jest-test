@@ -18,6 +18,8 @@ var _snapShot2 = _interopRequireDefault(_snapShot);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+const strip = o => JSON.parse(JSON.stringify(o))
+
 test('Link changes the class when hovered', function () {
   // snapshot does not know how to handle JSX
   var component = _reactTestRenderer2.default.create(_react2.default.createElement(
@@ -26,7 +28,7 @@ test('Link changes the class when hovered', function () {
     'Facebook'
   ));
   var tree = component.toJSON();
-  (0, _snapShot2.default)(tree);
+  (0, _snapShot2.default)(strip(tree));
   // expect(tree).toMatchSnapshot();
 
   // // manually trigger the callback
