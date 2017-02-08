@@ -6,7 +6,7 @@ import snapshot from 'snap-shot'
 // removes Function values (and other non-serializable stuff)
 const strip = o => JSON.parse(JSON.stringify(o))
 
-test('Link changes the class when hovered', () => {
+test.skip('Link changes the class when hovered', () => {
   // snapshot does not know how to handle JSX
   const component = renderer.create(
     <Link page="http://www.facebook.com">Facebook</Link>
