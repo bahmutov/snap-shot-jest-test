@@ -31,3 +31,72 @@ exports['works for primes (all) 1'] = [
   }
 ]
 
+exports['can be applied 1'] = {
+  "is4prime": false
+}
+
+exports['applies args 1'] = {
+  "name": "isPrime",
+  "behavior": [
+    {
+      "given": 1,
+      "expect": false
+    },
+    {
+      "given": 2,
+      "expect": true
+    },
+    {
+      "given": 3,
+      "expect": true
+    },
+    {
+      "given": 4,
+      "expect": false
+    },
+    {
+      "given": 5,
+      "expect": true
+    },
+    {
+      "given": 6,
+      "expect": false
+    },
+    {
+      "given": 7,
+      "expect": true
+    },
+    {
+      "given": 8,
+      "expect": false
+    }
+  ]
+}
+
+exports['binary function add 1'] = {
+  "name": "add",
+  "behavior": [
+    {
+      "given": [
+        1,
+        2
+      ],
+      "expect": 3
+    },
+    {
+      "given": [
+        2,
+        -2
+      ],
+      "expect": 0
+    },
+    {
+      "given": [
+        5,
+        10
+      ],
+      "expect": 15
+    }
+  ]
+}
+

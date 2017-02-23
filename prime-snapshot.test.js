@@ -26,6 +26,19 @@ function snaps(fn, inputs) {
   snapshot(output)
 }
 
+// multiple arguments
+function snapsMultiple(fn, ...inputs) {
+  const name = fn.name
+  const behavior = inputs.map(given => {
+    const args = Array.isArray(given) ? given : [given]
+    return {
+      given,
+      expect: fn.apply(null, args)
+    }
+  })
+  snapshot({name, behavior})
+}
+
 it('works for primes', () => {
   snap(isPrime, [2, 3, 5, 7])
 })
@@ -36,4 +49,19 @@ it('works for non-primes', () => {
 
 it('works for primes (all)', () => {
   snaps(isPrime, [2, 3, 5, 7])
+})
+
+it('can be applied', () => {
+  const result = {is4prime: isPrime.apply(null, [4])}
+  snapshot(result)
+})
+
+it('applies args', () => {
+  snapsMultiple(isPrime, 1, 2, 3, 4, 5, 6, 7, 8)
+})
+
+const add = (a, b) => a + b
+
+it('binary function add', () => {
+  snapsMultiple(add, [1, 2], [2, -2], [5, 10])
 })
