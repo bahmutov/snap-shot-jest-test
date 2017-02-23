@@ -1,0 +1,14 @@
+exports['works for primes 1'] = [
+  true,
+  true,
+  true,
+  true
+]
+
+exports['works for non-primes 1'] = [
+  false,
+  false,
+  false,
+  false
+]
+
