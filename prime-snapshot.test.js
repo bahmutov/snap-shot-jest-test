@@ -18,10 +18,22 @@ function snap(fn, inputs) {
   snapshot(output)
 }
 
+// better snapshot
+function snaps(fn, inputs) {
+  const output = inputs.map(given => {
+    return {given, expect: fn(given)}
+  })
+  snapshot(output)
+}
+
 it('works for primes', () => {
   snap(isPrime, [2, 3, 5, 7])
 })
 
 it('works for non-primes', () => {
   snap(isPrime, [4, 6, 8, 10])
+})
+
+it('works for primes (all)', () => {
+  snaps(isPrime, [2, 3, 5, 7])
 })

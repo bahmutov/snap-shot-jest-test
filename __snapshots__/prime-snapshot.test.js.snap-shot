@@ -12,3 +12,22 @@ exports['works for non-primes 1'] = [
   false
 ]
 
+exports['works for primes (all) 1'] = [
+  {
+    "given": 2,
+    "expect": true
+  },
+  {
+    "given": 3,
+    "expect": true
+  },
+  {
+    "given": 5,
+    "expect": true
+  },
+  {
+    "given": 7,
+    "expect": true
+  }
+]
+
